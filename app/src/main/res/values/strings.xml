@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <!-- Error message when there is no news found -->
+    <string name="no_news">No News Found</string>
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+    <!-- Label for order-by Newest option -->
+    <string name="settings_order_by_newest_label">Newest News</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <!-- Label for order-by Oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest News</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Strings For Section Preferences -->
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">sport</string>
+    <!-- Label for Technology Section -->
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+    <!-- Label for Sports Section -->
+    <string name="settings_section_sports_label">Sports</string>
+    <string name="settings_section_sports_value" translatable="false">sport</string>
+    <!-- Label for Business Section -->
+    <string name="settings_section_business_label">Business</string>
+    <string name="settings_section_business_value" translatable="false">business</string>
+
+</resources>

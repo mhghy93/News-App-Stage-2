@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/news_section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="section-name" />
+
+    <TextView
+        android:id="@+id/news_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="author-name" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_section_name"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="title" />
+
+
+    <TextView
+        android:id="@+id/date_published"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_title"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        tools:text="date" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_published"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:text="time" />
+
+
+</RelativeLayout>
